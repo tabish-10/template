@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Template</title>
+    <style>
+        /* Reset and Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.header .logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f5a623;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.about-content {
+    display: flex;
+    gap: 20px;
+    max-width: 800px;
+}
+
+.about img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Statistics Section */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.stat-item h3 {
+    font-size: 36px;
+    color: #f5a623;
+}
+
+.stat-item p {
+    font-size: 18px;
+}
+
+/* Chef Section */
+.chef {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.chef img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.chef-text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.chef-text p {
+    font-size: 18px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer .footer-links a {
+    color: #f5a623;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.card{
+
+display:flex;
+margin-left: 250px;
+}
+.card1{
+  border: 2px solid;
+  width: 45%px;
+  height: 200px;
+  background-color: black;
+  text-align: center center;
+  color: rgb(236, 177, 13);
+  width: 20%;
+  padding: 50px;
+ margin-right:10px ;
+}
+.card2{
+  border: 2px solid;
+  width: 20%;
+  padding: 50px;
+  margin-right: 10px;
+ 
+}
+.card3{
+  border: 2px solid;
+  width: 20%;
+  padding: 50px;
+ 
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">GoodFlavor</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Fresh Flavors Made With Love</h1>
+        <p>Welcome to the best restaurant in town, serving exquisite dishes for every palate.</p>
+        <div class="hero-buttons">
+            <button class="btn-primary">Learn More</button>
+            <button class="btn-secondary">View Menu</button>
+            
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-content">
+            <img src="pic/food.jpeg" alt="Delicious Food">
+            <div class="text">
+                <h2>Welcome to Our Restaurant</h2>
+                <p>Experience the best flavors crafted with passion.</p>
+                <button class="btn-primary">Discover More</button>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <section>
+    <div class="card">
+        <div class="card1">
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, veniam?</p>
+            
+            <p class="height">Lorem, ipsum.</p>
+        </div>
+        <div  class="card2">
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, beatae.</p>
+            <p class="height">Lorem, ipsum.</p>
+           
+        </div>
+        <div class="card3">
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, veniam?</p>
+            <p class="height">Lorem, ipsum.</p>
+            
+        </div>
+    </section>
+        <div>
+    <!-- Chef Section -->
+    <section class="chef">
+        <img src="pic/chef.jpg" alt="Chef Image">
+        <div class="chef-text">
+            <h2>Our Expert Chef</h2>
+            <p>Meet the creator of our mouth-watering dishes.</p>
+        </div>
+    </div>
+    </section>
+     <!-- Statistics Section -->
+     <section class="stats">
+        <div class="stat-item">
+            <h3>99%</h3>
+            <p>Satisfaction</p>
+        </div>
+        <div class="stat-item">
+            <h3>9+       </h3>
+            <p>Years of Experience</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 GoodFlavor. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
